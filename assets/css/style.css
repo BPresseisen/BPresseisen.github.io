@@ -1,12 +1,20 @@
+html, body {
+
+    height: 100%;
+
+}
+    
 head{
-    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
 
 body{
+    display: flex;
     padding-top: 0;
     margin: 0;
     background-color: whitesmoke;
+    flex-direction: column;
 }
 .header{
     padding-top: 5px;   
@@ -17,7 +25,7 @@ body{
 }
 .name{
     background-color: #4aaaa5;
-    width: 225px;
+    width: 245px;
     height: 35px;
     text-align: center;
     padding-top:20px;
@@ -34,14 +42,16 @@ body{
     margin-right:15%;
     padding-top: 35px;
     padding-bottom: 35px;
+    list-style-type: none;
+    display: inline;
 
 }
 .container {
     width: 960px;
-    height: 75px;
+    height: 465px;
     margin-left: 15%;
-    padding-top: 35px;
-    padding-bottom: 300px;
+    margin-top: 35px;
+    padding-bottom: 5px;
     color:#4aaaa5;
     background-color: white;
     position: relative;
@@ -64,13 +74,22 @@ body{
     text-align: left;
     color: grey;
     line-height: 1.6;
-}
+    padding-left: 5px;
+    padding-right: 5px;
+}   
 
+.footercontent{
+
+    min-height: calc(100vh-70px);
+    flex: 1 0 auto;
+}
 .footer{
-    padding-top: 15px;
+    margin-top: 87px;
     background-color:#666666;
     border-top-style: solid;
     border-color:  #4aaaa5;
     text-align: center;
     color: white;
+    flex-shrink: 0;
+
 }

@@ -1,0 +1,20 @@
+head{
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+body{
+    background-color:#f0f0f0;
+}
+
+.name{
+    background-color: #4aaaa5;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    padding-top:75px;
+    font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+}
+
+}

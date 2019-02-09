@@ -1,7 +1,5 @@
 html, body {
-
     height: 100%;
-
 }
     
 head{
@@ -13,7 +11,7 @@ body{
     display: flex;
     padding-top: 0;
     margin: 0;
-    background-color: whitesmoke;
+    background-color: #dddddd;
     flex-direction: column;
 }
 .header{
@@ -21,7 +19,9 @@ body{
     height: 100px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom-style: solid;
-    border-color: #cccccc;
+    border-color: #dddddd;
+    background-color:#ffffff;
+
 }
 .name{
     background-color: #4aaaa5;
@@ -30,38 +30,66 @@ body{
     text-align: center;
     padding-top:20px;
     padding-bottom: 25px;
-    margin-left: 15%;
+    margin-left: 18%;
     font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     float: left;
 }
 
-.apc{
-    float: right;
-    color: grey;
-    margin-right:15%;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    list-style-type: none;
-    display: inline;
-
+.About{
+    float:left;
+    padding-top: 20px;
+    padding-right: 8px;
+    margin-top:10px;
+    text-align: center;
+    overflow: auto;
+    color: #777777;
 }
+
+.Contact {
+    float:left;
+    padding-top: 20px;
+    padding-right: 8px;
+    margin-top:10px;
+    text-align: center;
+    overflow: auto;
+    color: #777777;
+}
+.Portfolio {
+    float:left;
+    padding-top: 20px;
+    padding-right: 8px;
+    margin-top:10px;
+    text-align: center;
+    overflow: auto;
+    color: #777777;
+}
+
+.apc{
+    margin-left: 33%;
+    float:left;
+    overflow:auto;
+}
+
 .container {
     width: 960px;
     height: 465px;
-    margin-left: 15%;
+    margin-left: 18%;
     margin-top: 35px;
     padding-bottom: 5px;
     color:#4aaaa5;
-    background-color: white;
+    background-color:#ffffff;
     position: relative;
+    overflow: auto;
 
 }
-.about{
+/* .about{ */
+.cont-header{
     padding-top: 10px;
     padding-left: 10px;
+    padding-bottom: 10px;
     border-bottom-style: solid;
-    border-color: #cccccc;
+    border-color: #dddddd;
 }
 
 .bio-image{
@@ -70,13 +98,21 @@ body{
     float: left;
 }
 .bio{
-    position: relative;
     text-align: left;
-    color: grey;
+    color: #777777;
     line-height: 1.6;
     padding-left: 5px;
     padding-right: 5px;
-}   
+    background-color: #ffffff;
+} 
+
+.rps{
+
+    margin-top: 200px;
+
+}
+
+
 
 .footercontent{
 

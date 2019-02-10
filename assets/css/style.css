@@ -81,9 +81,8 @@ body{
     background-color:#ffffff;
     position: relative;
     overflow: auto;
-
 }
-/* .about{ */
+
 .cont-header{
     padding-top: 10px;
     padding-left: 10px;
@@ -106,13 +105,106 @@ body{
     background-color: #ffffff;
 } 
 
-.rps{
-
-    margin-top: 200px;
+.c_name{
+   
+    color: #777777;
+    padding-left: 10px;
+    
 
 }
 
+.c-name{
 
+    background-color:transparent;
+    border-style:solid;
+    border-color:rgb(197, 196, 196);
+    width: 900px;
+
+}
+.c_email{
+
+    color: #777777;
+    padding-left: 10px;
+}
+
+.c-email{
+
+    background-color:transparent;
+    border-style:solid;
+    border-color:rgb(197, 196, 196);
+    width: 900px;
+
+}
+.c_msg{
+
+    color: #777777;
+    padding-left: 10px;
+    
+}
+
+.c-msg{
+
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color:transparent;
+    border-style:solid;
+    border-color:rgb(197, 196, 196);
+    height: 80px;
+    width: 900px;
+
+}
+.c_btn_submit{
+    
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    height: 25px;
+    width: 65px;  
+    text-align: left;  
+}
+
+.hman{
+    position: absolute;
+    padding-top:0;
+    padding-left: 25px; 
+}
+/* .hman-label{
+    background-color: #4aaaa5;
+    width: 50px;
+    text-align: center;
+    font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    z-index: 10;
+    position: relative;  */
+
+.rpg{
+    float: left;
+    padding-left: 200px;
+    
+}
+
+.trivia{
+    position: absolute;
+    padding-top: 140px;
+    padding-left: 10px;
+}
+
+.widget{
+    position: absolute;
+    padding-top: 140px;
+    padding-left: 220px;
+}
+
+.rps{
+    
+    position: absolute;
+    padding-top: 265px;
+    padding-left: 10px;
+}
 
 .footercontent{
 
